@@ -1,0 +1,19 @@
+{
+  "name": "typescript-maps",
+  "version": "1.0.0",
+  "description": "typescript app with better design practices",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.6.4"
+  },
+  "dependencies": {
+    "@types/faker": "^4.1.7",
+    "@types/googlemaps": "^3.38.0",
+    "faker": "^4.1.0"
+  }
+}
