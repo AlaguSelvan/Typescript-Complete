@@ -1,0 +1,36 @@
+Arguments: 
+  /home/selvan/.nvm/versions/node/v12.13.0/bin/node /usr/share/yarn/bin/yarn.js add @types/fs
+
+PATH: 
+  /home/selvan/.cargo/bin:/home/selvan/.local/bin:/home/selvan/.nvm/versions/node/v12.13.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/c/ProgramData/DockerDesktop/version-bin:/c/Program Files/Docker/Docker/Resources/bin:/c/Windows/system32:/c/Windows:/c/Windows/System32/Wbem:/c/Windows/System32/WindowsPowerShell/v1.0/:/c/Windows/System32/OpenSSH/:/c/Program Files/Git/cmd:/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/c/Program Files/Intel/WiFi/bin/:/c/Program Files/Common Files/Intel/WirelessCommon/:/c/Go/bin:/c/ProgramData/chocolatey/bin:/c/Program Files (x86)/Yarn/bin/:/c/Users/alagu/AppData/Roaming/nvm:/c/Program Files/nodejs:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/c/WINDOWS/System32/OpenSSH/:/c/Program Files/dotnet/:/c/Program Files/Microsoft SQL Server/130/Tools/Binn/:/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/c/Program Files/nodejs/:/c/RailsInstaller/Git/cmd:/c/RailsInstaller/Ruby2.3.3/bin:/c/Ruby25-x64/bin:/c/Users/alagu/AppData/Local/Programs/Python/Python37-32/Scripts/:/c/Users/alagu/AppData/Local/Programs/Python/Python37-32/:/c/Users/alagu/.cargo/bin:/c/Users/alagu/AppData/Local/Microsoft/WindowsApps:/c/Users/alagu/AppData/Local/Programs/Microsoft VS Code/bin:/c/Users/alagu/AppData/Local/atom/bin:/c/Users/alagu/go/bin:/c/Users/alagu/AppData/Local/Yarn/bin:/c/Users/alagu/AppData/Roaming/nvm:/c/Program Files/nodejs:/c/tools/neovim/Neovim/bin:/c/Users/alagu/AppData/Local/hyper/app-3.0.2/resources/bin:/c/Users/alagu/AppData/Roaming/npm:/snap/bin:/usr/local/go/bin:/home/selvan/go/bin
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  12.13.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@types%2ffs: Not found
+      at Request.params.callback [as _callback] (/usr/share/yarn/lib/cli.js:66926:18)
+      at Request.self.callback (/usr/share/yarn/lib/cli.js:140564:22)
+      at Request.emit (events.js:210:5)
+      at Request.<anonymous> (/usr/share/yarn/lib/cli.js:141536:10)
+      at Request.emit (events.js:210:5)
+      at IncomingMessage.<anonymous> (/usr/share/yarn/lib/cli.js:141458:12)
+      at Object.onceWrapper (events.js:299:28)
+      at IncomingMessage.emit (events.js:215:7)
+      at endReadableNT (_stream_readable.js:1183:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
